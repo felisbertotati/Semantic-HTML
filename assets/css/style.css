@@ -25,6 +25,7 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
+/* changed div to nav element*/
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -86,27 +87,12 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/*Grouped classes*/
 .benefit-lead,
 .benefit-cost,
 .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
 }
 
 #search-engine-optimization,
@@ -131,6 +117,22 @@ p {
 #social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+/*Grouped classes*/
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 footer {
